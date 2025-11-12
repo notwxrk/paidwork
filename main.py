@@ -66,7 +66,7 @@ CARS = {
         "duration": 100,
         "total_income": 500000,
         "price": 25000,
-        "image": "https://i.ibb.co/bgjr7xNW/20251111-131622.png"
+        "image": "https://i.ibb.co/TMdDnrFm/bmw.png"
     },
     "mercedes": {
         "name": "Mercedes Benz", 
@@ -74,7 +74,7 @@ CARS = {
         "duration": 100,
         "total_income": 1000000,
         "price": 75000,
-        "image": "https://i.ibb.co/Xf3JgpGS/20251111-131901.png"
+        "image": "https://i.ibb.co/vxm8Vjrr/mers.png"
     },
     "nissan": {
         "name": "Nissan GTR",
@@ -82,7 +82,7 @@ CARS = {
         "duration": 100,
         "total_income": 2000000,
         "price": 150000,
-        "image": "https://i.ibb.co/tTVdQ70c/20251111-132004.png"
+        "image": "https://i.ibb.co/NnnJt0Ly/nissangtr.png"
     },
     "supra": {
         "name": "Supra",
@@ -90,7 +90,7 @@ CARS = {
         "duration": 100,
         "total_income": 3000000,
         "price": 300000,
-        "image": "https://i.ibb.co/3ywTRf7R/20251111-132135.png"
+        "image": "https://i.ibb.co/v4C9hN9W/toyota.png"
     },
     "ferrari": {
         "name": "Ferrari",
@@ -98,7 +98,7 @@ CARS = {
         "duration": 100,
         "total_income": 4000000,
         "price": 400000,
-        "image": "https://i.ibb.co/9mc1RWkB/20251111-132318.png"
+        "image": "https://i.ibb.co/RGQ43MSS/ferrari.png"
     },
     "bugatti": {
         "name": "Bugatti",
@@ -106,7 +106,7 @@ CARS = {
         "duration": 100,
         "total_income": 5000000,
         "price": 500000,
-        "image": "https://i.ibb.co/Lzz0shFS/20251111-132601.png"
+        "image": "https://i.ibb.co/VW4DhYHK/bugatti.png"
     }
 }
 
@@ -576,8 +576,7 @@ async def handle_captcha(update: Update, context: ContextTypes.DEFAULT_TYPE):
             
             await update.message.reply_text(
                 "✅ Captcha muvaffaqiyatli yechildi!\n\n"
-                "🎁 Sizga 30,000 CP (Cash Points) bonus berildi!\n\n"
-                "Endi botdan to'liq foydalanish uchun quyidagi kanal va guruhga a'zo bo'ling:"
+                "Endi botdan to'liq foydalanish uchun quyidagi kanal va guruhga a'zo bo'ling va /start bosing!:"
             )
             
             # Kanal tekshirish
