@@ -560,7 +560,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     reply_markup = ReplyKeyboardMarkup(keyboard, resize_keyboard=True, one_time_keyboard=True)
     
     await update.message.reply_text(
-        f"Assalomu alaykum! Goo Taksi botiga xush kelibsiz!\n\n"
+        f"Assalomu alaykum! xush kelibsiz!\n\n"
         f"Botdan foydalanish uchun telefon raqamingizni ulashing:",
         reply_markup=reply_markup
     )
