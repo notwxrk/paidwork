@@ -48,7 +48,7 @@ def run_flask():
     app.run(host='0.0.0.0', port=8080)
 
 # Database configuration
-DATABASE_URL = "postgresql://paidwxrk_user:3w1EkdMa0rEo3KWF7us31CXBjV4ojj5J@dpg-d4bbnsv5r7bs7392haf0-a/paidwxrk"
+DATABASE_URL = "postgresql://pwork_user:tbiLfplHM61mPQNYCVvu38TLymCgxgF1@dpg-d4bf37c9c44c73dp5ts0-a/pwork"
 
 # Bot configuration
 BOT_TOKEN = "8520149169:AAEesEAyJOOSJOL-lkHYZnyqqAJKG1BZGbE"
