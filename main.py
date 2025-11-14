@@ -48,13 +48,13 @@ def run_flask():
     app.run(host='0.0.0.0', port=8080)
 
 # Database configuration
-DATABASE_URL = "postgresql://endless_xflg_user:KkY2o4Da3hPjeFS5Rq8mYRYHAfb2FSjR@dpg-d4a9p92li9vc73fe5bhg-a/endless_xflg"
+DATABASE_URL = "postgresql://paidwxrk_user:3w1EkdMa0rEo3KWF7us31CXBjV4ojj5J@dpg-d4bbnsv5r7bs7392haf0-a/paidwxrk"
 
 # Bot configuration
-BOT_TOKEN = "8526778595:AAGP5ZINtNu6M2vYiZt2onz6bFRostthM8k"
+BOT_TOKEN = "8520149169:AAEesEAyJOOSJOL-lkHYZnyqqAJKG1BZGbE"
 ADMIN_ID = 7431672482
-CHANNEL_USERNAME = "@gootaksi"
-GROUP_USERNAME = "@gootaksi_chat"
+CHANNEL_USERNAME = "@paidworkuz"
+GROUP_USERNAME = "@paidworkchat"
 LOG_CHANNEL_ID = -1002189548052
 PAYMENT_LOG_CHANNEL_ID = -1002329139755
 
@@ -1099,7 +1099,6 @@ async def fill_balance(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "Hisobingizni to'ldirish uchun admin bilan bog'laning:\n"
         f"👤 Admin: @GooTaksi_Admin\n\n"
         "Ish vaqti 7:00 23:00 gacha.\n\n"
-        "⚠️ Eslatma: Do'stlaringiz hisobini to'ldirganida, ular to'ldirgan miqdorning 50% sizga Cash Points sifatida qo'shiladi!"
     )
     
     await update.message.reply_text(text)
@@ -1133,9 +1132,8 @@ async def show_referral(update: Update, context: ContextTypes.DEFAULT_TYPE):
         f"💰 Referal bonus: {referral_bonus:,.0f} so'm\n\n"
         f"🔗 Sizning referal havolangiz:\n{referral_link}\n\n"
         f"🎯 Taklif qilish shartlari:\n"
-        f"• Har bir taklif uchun: 500 so'm bonus\n"
-        f"• Do'stingiz hisob to'ldirsa: 50% Cash Points\n"
-        f"• Do'stingiz KANALLARGA A'ZO BO'LSA: Bonus beriladi\n"
+        f"• Har bir taklif uchun: 500 so'm mukofot\n"
+        f"• Do'stingiz Kanallarga a'zo bo'lganida mukofot beriladi\n"
     )
     
     await update.message.reply_text(text)
