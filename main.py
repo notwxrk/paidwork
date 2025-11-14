@@ -1097,7 +1097,7 @@ async def fill_balance(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = (
         "📥 Hisobni to'ldirish\n\n"
         "Hisobingizni to'ldirish uchun admin bilan bog'laning:\n"
-        f"👤 Admin: @GooTaksi_Admin\n\n"
+        f"👤 Admin: @MythicSync\n\n"
         "Ish vaqti 7:00 23:00 gacha.\n\n"
     )
     
@@ -1468,7 +1468,7 @@ async def support(update: Update, context: ContextTypes.DEFAULT_TYPE):
     text = (
         "💬 Qo'llab Quvvatlash\n\n"
         "Savol yoki takliflaringiz bo'lsa, admin bilan bog'laning:\n"
-        f"👤 Admin: @GooTaksi_Admin\n\n"
+        f"👤 Admin: @MythicSync\n\n"
         "Yordam kerak bo'lsa, murojaat qiling!"
     )
     
